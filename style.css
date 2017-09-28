@@ -1,0 +1,250 @@
+*{
+margin: 0;
+padding: 0;
+font-family: 'OpenSans', sans-serif;
+}
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 15px;
+  padding-bottom: 15px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: lighter;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+header{
+  height: 435px;
+  background: url("images/city-scape.svg");
+}
+.search-bar{
+  height: 20px;
+  padding: 15px 15px;
+}
+.search-bar .logo{
+  width: 125px;
+  height: 50px;
+  float:left;
+}
+.search-bar p{
+  text-decoration: none;
+  color: white;
+  float:left;
+  margin-left: 60px;
+  margin-top: 10px;
+  font-weight: lighter;
+}
+.search-bar-p-item{
+  text-decoration: none;
+  color: white;
+}
+.search-bar .bear{
+  float: left;
+  height: 130%;
+  margin-left: 10px;
+}
+.search-bar input{
+  background:rgb(31, 82, 111);
+  float: left;
+  width: 72%;
+  height: 50px;
+  -webkit-appearance: none;
+  margin-left: 20px;
+  border: 1px solid rgb(5, 105, 137);
+
+}
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+  text-align: center;
+
+}
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.top-left{
+ float: left;
+ margin-left: 20px;
+}
+.clear-searchbar{
+  clear: both;
+}
+.textandbutton{
+  width: 40%;
+  margin: 0 auto;
+  color: white;
+  position: relative;
+  top: 54px;
+  right: 215px;
+}
+.textandbutton h1{
+  font-weight: lighter;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.textandbutton p{
+  font-weight: lighter;
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.textandbutton button{
+  height: 43px;
+  width: 190px;
+  color: white;
+  background: rgb(240, 146, 51);
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  font-size: 19px;
+  font-weight: lighter;
+}
+.textandbutton-button-item{
+  text-decoration: none;
+  color: white;
+}
+.sectionorgs{
+  height: 585px;
+  widht: 100%;
+  background: rgb(39, 53, 71);
+}
+#npmorgs img{
+  float:left;
+  height: 57%;
+  width: 47%;
+  margin: 100px 0;
+  padding-left: 7%;
+  padding-right: 3%;
+}
+#npmorgs .text{
+  height: 100px;
+  color: white;
+  margin: 0 auto;
+  width: 81%;
+  padding: 10% 16%;
+}
+#npmorgs h1{
+  font-size: 37px;
+  font-weight: lighter;
+  margin-bottom: 20px;
+}
+#npmorgs li{
+  font-weight: lighter;
+  margin: 18px 0px;
+  padding: 4px 0px;
+}
+.signuporgs{
+  text-decoration: none;
+  color: white;
+}
+#npmorgs button{
+  height: 41px;
+  width: 198px;
+  color: white;
+  background: rgb(203, 56, 55);
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  font-size: 19px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.class-button-item{
+  color: white;
+  text-decoration: none;
+  font-weight: lighter;
+}
+.class-a-item{
+  text-decoration: none;
+  color: white;
+}
+#whatis{
+  background: url(images/forklift.svg);
+  background-size: cover;
+  height: 510px;
+  position: relative;
+}
+#whatis button{
+  height: 41px;
+  width: 150px;
+  color: white;
+  background: rgb(49, 68, 88);
+  padding: 10px 20px;
+  border-radius: 100px;
+  border: none;
+  font-size: 18px;
+  font-weight: lighter;
+  position: relative;
+}
+.textinstall-button-item{
+  text-decoration: none;
+  color: white;
+}
+.clearorgs{
+  clear:left;
+}
+#whatis .textinstall{
+  position: absolute;
+  top: 23%;
+  left: 13%;
+  color: white;
+  width: 25%;
+}
+#whatis h1{
+  font-weight: lighter;
+  font-size: 37px;
+  margin-bottom: 23px;
+}
+#whatis p{
+  font-weight: lighter;
+  font-size: 17px;
+  margin-bottom: 20px;
+}
+.headingpackages{
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 40px;
+}
+#packages {
+  background: white;
+  height: 465px;
+}
+#packages h1{
+  font-size: 37px;
+  font-weight: lighter;
+  color: rgb(83, 88, 98);
+  margin-bottom: 25px;
+}
+.headingpackages p{
+  color: rgb(135, 145, 156);
+  font-weight: lighter;
+}
+.logotext{
+  height: 50px;
+  margin: 0 auto;
+  float: left;
+  width: 33%;
+  text-align: center;
+  font-weight: lighter;
+  color: rgb(83, 88, 98);
+}
+.logotext p{
+  margin: 10px 96px;
+  color: rgb(135, 145, 156);
+  font-size: 17px;
+}
+.logotext a{
+  text-decoration: none;
+  color: rgb(208, 74, 73);
+}
+.clearpackages{
+  clear: left;
+}
